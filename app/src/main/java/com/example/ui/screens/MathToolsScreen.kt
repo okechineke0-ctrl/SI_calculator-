@@ -21,6 +21,7 @@ import com.example.ui.MainViewModel
 
 enum class MathToolTab(val title: String) {
     EQUATIONS("Equations"),
+    COMPUTER_SCIENCE("Computer Science & ASCII"),
     MATRICES("Matrices & Vectors"),
     STATISTICS("Statistics"),
     CALCULUS("Calculus & Series"),
@@ -65,6 +66,7 @@ fun MathToolsScreen(viewModel: MainViewModel) {
         ) {
             when (selectedTool) {
                 MathToolTab.EQUATIONS -> EquationsTool()
+                MathToolTab.COMPUTER_SCIENCE -> ComputerScienceTool()
                 MathToolTab.MATRICES -> MatricesTool()
                 MathToolTab.STATISTICS -> StatisticsTool()
                 MathToolTab.CALCULUS -> CalculusTool()
