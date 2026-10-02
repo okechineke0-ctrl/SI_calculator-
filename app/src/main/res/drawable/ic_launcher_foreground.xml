@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Precision Ring (Euler Gauge) -->
+    <path
+        android:strokeColor="#1E3E66"
+        android:strokeWidth="1.2"
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26" />
+
+    <!-- Cardinal Coordinate Marks -->
+    <path
+        android:strokeColor="#0EA5E9"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,22 L54,26 M54,82 L54,86 M22,54 L26,54 M82,54 L86,54" />
+
+    <!-- Radiant Mathematical Sigma (Σ) in Vibrant Cyan -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M66,38 L42,38 L54,54 L42,70 L66,70" />
+
+    <!-- Sophisticated Integral (∫) in Refined Gold Accent -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M63,33 C61,31 58,31 56,33 C54,35 54,42 53,49 C52,56 52,69 50,73 C48,77 45,77 43,75" />
+
+    <!-- Continuous Calculus Wave (Sine curve across lower register) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M34,60 C38,55 42,65 46,60 C50,55 54,65 58,60 C62,55 66,65 74,60" />
+
+    <!-- Spark of AI Intelligence (Diamond star accent) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M70,30 L72,34 L76,36 L72,38 L70,42 L68,38 L64,36 L68,34 Z" />
+</vector>

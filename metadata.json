@@ -1,0 +1,6 @@
+{
+  "name": "Ocean Math AI",
+  "description": "Professional Scientific & Graphing Calculator with Advanced Mathematics, Physics, Statistics, and AI Snap & Solve",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
